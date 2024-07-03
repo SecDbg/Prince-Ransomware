@@ -42,11 +42,11 @@ Releasing an open-source ransomware tool like Prince on GitHub presents ethical 
 
 ### No Liability:
 
-- The creator (responsible) of this tool shall not be held responsible for any damages or legal consequences resulting from the use or misuse of this software. This includes, but is not limited to, direct, indirect, incidental, consequential, or punitive damages arising out of your access, use, or inability to use the tool.
+- The creator (SecDbg) of this tool shall not be held responsible for any damages or legal consequences resulting from the use or misuse of this software. This includes, but is not limited to, direct, indirect, incidental, consequential, or punitive damages arising out of your access, use, or inability to use the tool.
 
 ### No Support:
 
-- The creator (responsible) will not provide any support, guidance, or assistance related to the misuse of this tool. Any inquiries regarding malicious activities will be ignored.
+- The creator (SecDbg) will not provide any support, guidance, or assistance related to the misuse of this tool. Any inquiries regarding malicious activities will be ignored.
 
 ### Acceptance of Terms:
 
