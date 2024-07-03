@@ -19,7 +19,7 @@ Prince is a ransomware written from scratch in Go. It uses a mixture of ChaCha20
 - The `Decryptor-Built.exe` file is the decryptor. It will only decrypt files which were decrypted by the corresponding encryptor.
 
 ## Showcase
-[![Showcase](Assets/Showcase.mp4)](Assets/Showcase.mp4)
+https://github.com/SecDbg/Prince-Ransomware/assets/73649897/433e6e4e-bc92-4553-a4d8-68745591058d
 
 ## Ethical Considerations
 Releasing an open-source ransomware tool like Prince on GitHub presents ethical considerations, but it also offers significant benefits, particularly for security researchers:
