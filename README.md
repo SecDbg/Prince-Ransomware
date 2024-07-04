@@ -21,11 +21,16 @@ Prince is a ransomware written from scratch in Go. It uses a mixture of ChaCha20
 ## Showcase
 https://github.com/SecDbg/Prince-Ransomware/assets/73649897/433e6e4e-bc92-4553-a4d8-68745591058d
 
+## Encryption Process
+- The encryptor enumerates all drives on the system, and proceeds to iterate through each directory recursively.
+- It ignores blacklisted files, directories and extensions.
+- It generates a unique ChaCha20 key and nonce for each file, and encrypts the file using a pattern of 1 byte encrypted, 2 bytes unencrypted.
+- It encrypts the ChaCha20 key and nonce using the ECIES public key, and prepends them to the start of the file.
+
 ## Benefits of ChaCha20 and ECIES
 I chose this unique combination of encryption methods for several reasons:
 - ChaCha20's stream-based approach allows for byte-by-byte encryption, enabling the pattern of 1 byte encrypted, 2 bytes unencrypted.
 - ECIES offers similar security to RSA with shorter key lengths, making it a more efficient choice.
-
 
 ## Ethical Considerations
 Releasing an open-source ransomware tool like Prince on GitHub presents ethical considerations, but it also offers significant benefits, particularly for security researchers:
