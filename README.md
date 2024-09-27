@@ -4,8 +4,6 @@
 Prince now has a Windows Defender flag, namely "Ransom:Win64/PrinceRansom.YAA!MTB". This means that Prince Ransomware will no longer bypass Windows Defender without modifications to remove the signature.
 ![image](https://github.com/user-attachments/assets/d686558c-acb9-4354-9b38-e7442f2bf0dc)
 
-If, for whatever reason, bypassing Windows Defender is a priority for you, contact me on [Telegram](https://t.me/secdbg) and I will accept payment for any changes you may require.
-
 ## Brief Overview
 Prince is a ransomware written from scratch in Go. It uses a mixture of ChaCha20 and ECIES cryptography in order to encrypt files securely so that they cannot be recovered by traditional recovery tools. Files which have been encrypted by Prince can only be decrypted using the corresponding decryptor.
 
