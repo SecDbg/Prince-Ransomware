@@ -1,5 +1,8 @@
 # Prince Ransomware
 
+fuck off stop using this in phishing attacks assholes
+i'm not involved feds ong no cap istg fr
+
 ## Detection Update (15/08/24)
 Prince now has a Windows Defender flag, namely "Ransom:Win64/PrinceRansom.YAA!MTB". This means that Prince Ransomware will no longer bypass Windows Defender without modifications to remove the signature.
 ![image](https://github.com/user-attachments/assets/d686558c-acb9-4354-9b38-e7442f2bf0dc)
