@@ -1,7 +1,11 @@
 # Prince Ransomware
 
-fuck off stop using this in phishing attacks assholes
-i'm not involved feds ong no cap istg fr
+## Quick Disclaimer
+- Well, I didn't think it had to be said, but that educational use only disclaimer wasn't a fucking joke.
+- I genuinely can't see the motivation for using this half-assed Github project in actual ransomware operations.
+- Regarding the cybersecurity researchers painting me as a threat actor that actively offers ReFUDs for this to aid threat actors, I didn't ReFUD it once because I wasn't bothered lmao.
+- TL;DR: Don't use my shit for operations, don't kick my door down, and send me money.
+
 
 ## Detection Update (15/08/24)
 Prince now has a Windows Defender flag, namely "Ransom:Win64/PrinceRansom.YAA!MTB". This means that Prince Ransomware will no longer bypass Windows Defender without modifications to remove the signature.
