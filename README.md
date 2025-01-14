@@ -1,7 +1,6 @@
 # Prince Ransomware
 
 ## Quick Disclaimer
-- Well, I didn't think it had to be said, but that educational use only disclaimer wasn't a fucking joke.
 - I genuinely can't see the motivation for using this half-assed Github project in actual ransomware operations.
 - Regarding the cybersecurity researchers painting me as a threat actor that actively offers ReFUDs for this to aid threat actors, I didn't ReFUD it once because I wasn't bothered lmao.
 - TL;DR: Don't use my shit for operations, don't kick my door down, and send me money.
